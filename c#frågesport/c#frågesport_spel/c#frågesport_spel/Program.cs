@@ -6,7 +6,7 @@ string name;
 int points = 0;
 
 name = Console.ReadLine();
-
+Console.Beep();
 Console.WriteLine($"Välkommen, {name} hoppas du vinner!");
 Console.WriteLine("För att ange din svar du ska skriva in bokstaven som kommer före alternativet.");
 Console.WriteLine("Fråga nummer 1: Vad heter Sverige?");
