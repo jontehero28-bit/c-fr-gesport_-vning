@@ -121,7 +121,7 @@ if (points == 0)
 {
     Console.WriteLine("Du hade alla fel bre");
 }
-else if (points < 3)
+else if (points <= 3)
 {
     Console.WriteLine("Du hade några rätt bre");
 }
